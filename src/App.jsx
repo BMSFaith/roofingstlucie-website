@@ -1169,7 +1169,7 @@ function HomePage() {
               muted
               loop
               playsInline
-              className="w-full h-full object-cover opacity-75"
+              className="w-full h-full object-cover opacity-55"
             />
           </div>
           <div className="absolute inset-0 bg-gradient-to-br from-blue-900/75 via-blue-900/55 to-blue-800/40" />
