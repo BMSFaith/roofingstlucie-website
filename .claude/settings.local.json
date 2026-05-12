@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\Aegis\\\\Desktop\\\\roofingstlucie website\\\\public\\\\images\" | Select-Object Name, @{Name=\"Size_KB\";Expression={[math]::Round\\($_.Length/1KB,0\\)}} | Sort-Object Size_KB -Descending)",
+      "Bash(cd \"C:\\\\Users\\\\Aegis\\\\Desktop\\\\smithfamily-website\" && npm install && npm install react-router-dom framer-motion 2>&1)",
+      "Read(//c/Users/Aegis/Desktop/smithfamily-website/**)",
+      "Bash(npx tailwindcss *)"
+    ]
+  }
+}
